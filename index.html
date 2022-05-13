@@ -4,28 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | vesak test</title>
-	<style>
-   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-</style> 
   </head>
-  <body>
-  		 <script src="script/scrip.js"></script> 
-    <div id="heading5">සුභ වෙසක් මංගල්‍යයක් වේවා </div>
-   <div id="heading6">ශ්‍රී බුද්ධ වර්ශ 2565</div> 
-	</p>
-	
-	<div id="footer"> powered by Cooperative insurance SDU </div>
-
-	<div id="heading3"> Charith Fernando</div>
-    <p style="text-align: right; margin-right:20px;">
-    <canvas id="unity-canvas" width=960 height=550 style="width: 960px; height: 550px; background: #231F20 ; "></canvas>
-	</p>
-    <script src="Build/Newfolder.loader.js"></script>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=960 height=550 style="width: 960px; height: 550px; background: #231F20"></canvas>
+    <script src="Build/new.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/New folder (3).data.gz",
-        frameworkUrl: "Build/New folder (3).framework.js.gz",
-        codeUrl: "Build/New folder (3).wasm.gz",
+        dataUrl: "Build/new.data",
+        frameworkUrl: "Build/new.framework.js",
+        codeUrl: "Build/new.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "vesak test",
