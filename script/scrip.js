@@ -69,7 +69,7 @@
     Flower.prototype.draw = function() {
       var ctx = this.ctx;
       ctx.save();
-      ctx.globalCompositeOperation = 'lighter';
+      ctx.globalCompositeOperation = 'darken';
       ctx.fillStyle = 'rgb(' + this.c.r + ', ' + this.c.g + ', ' + this.c.b + ')';
       ctx.globalAlpha = 0.5;
       ctx.translate(this.x, this.y);

@@ -65,10 +65,11 @@
 }
 #heading5{
     color:white;
+	float:right;
 	position:relative;
 	font-weight:bold;
-	font-size:25px;
-	margin-left:20%;
+	font-size:60px;
+	margin-right:30%;
 	margin-bottom:20px;
 	font-family: 'Raleway', sans-serif;
 	
@@ -78,7 +79,7 @@
     color:white;
 	position:relative;
 	font-weight:bold;
-	font-size:20px;
+	font-size:40px;
 	margin-left:30%;
 	margin-bottom:20px;
 	
