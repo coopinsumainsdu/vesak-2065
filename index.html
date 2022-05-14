@@ -7,28 +7,30 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
    </style> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@800&display=swap" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="style/style.css"/>
   </head>
   <body style="background-color: black;">
-    <canvas id="canvas"></canvas>
+    <canvas id="canvas" >  </canvas>
     <script src="script/scrip.js"></script> 
-    <div id="heading5" style="color:white;">සුභ වෙසක් මංගල්‍යයක් වේවා </div>
-   <div id="heading6" style="color:white;">ශ්‍රී බුද්ධ වර්ශ 2565</div> 
+   
+    <div id="heading5" style="color:white;"><img src="images/logovesak.png" style="width: 200px; height: 150px; float: left; margin-right: 20px;">සුභ වෙසක් මංගල්‍යයක් වේවා <br><p id="heading6">ශ්‍රී බුද්ධ වර්ශ 2565</p> </div>
+   <div id="heading6" style="color:white;"></div> 
 	</p>
+
  
-  <p style="float: left;margin-left: 40px;" ><img src="images/guide.png" style="width: 300px; height: 380px;position:relative;"/></p>
+  <p style="float: left;margin-left: 40px;margin-top: 70px;" ><img src="images/guide.png" style="width: 300px; height: 380px;position:relative;"/></p>
   <p style="text-align: right;float:right;margin-right: 80px;">
     
     <canvas id="unity-canvas" width=980 height=570 style="width: 960px; height: 550px; background: #231F20 ;position:relative;"></canvas>
+    
+   
+    
     <p id="heading3" style="color:white;"> powered by Cooperative insurance SDU </p>
     <p id="heading3"> Charith Fernando</p>
-    </p>
-  
-   
 
-
-    
-  
     <script src="Build/new.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
@@ -43,6 +45,6 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
-    
+  
   </body>
 </html>
